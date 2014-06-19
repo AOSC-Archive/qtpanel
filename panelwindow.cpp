@@ -95,7 +95,7 @@ PanelWindow::PanelWindow()
 	m_applets.append(new TrayApplet(this));
 	m_applets.append(new ClockApplet(this));
 
-	resize(adjustHardcodedPixelSize(512), adjustHardcodedPixelSize(48));
+	resize(adjustHardcodedPixelSize(512), adjustHardcodedPixelSize(128));
 }
 
 PanelWindow::~PanelWindow()

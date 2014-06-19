@@ -79,7 +79,7 @@ void PanelApplication::init()
 		m_verticalAnchor = PanelWindow::Max;
 
 	PanelWindow* panelWindow = new PanelWindow();
-	panelWindow->resize(adjustHardcodedPixelSize(128), adjustHardcodedPixelSize(32));
+	panelWindow->resize(adjustHardcodedPixelSize(128), adjustHardcodedPixelSize(64));
 	panelWindow->setLayoutPolicy(PanelWindow::FillSpace);
 	panelWindow->setVerticalAnchor(m_verticalAnchor);
 	panelWindow->setDockMode(true);
